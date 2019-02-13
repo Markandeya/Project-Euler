@@ -1,4 +1,4 @@
-![Leonhard Euler!](https://upload.wikimedia.org/wikipedia/commons/a/a7/EulerLeonhard.jpg)
+![Leonhard Euler!](https://cdn.dribbble.com/users/155528/screenshots/3651676/eulerlogo.gif)
 
 # Project-Euler
 This repository is a collection of problems I solved at [Project Euler](https://projecteuler.net).
