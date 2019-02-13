@@ -2,9 +2,11 @@
 
 # Project-Euler
 This repository is a collection of problems I solved at [Project Euler](https://projecteuler.net).
-Euler project is for anyone who wants to challenge himself and grow. 
-Heres and excerpt from the Project Euler website - <br>
-**The intended audience include students for whom the basic curriculum is not feeding their hunger to learn, adults whose background was not primarily mathematics but had an interest in things mathematical, and professionals who want to keep their problem solving and mathematics on the cutting edge.**
+Euler project is for anyone who wants to challenge himself and grow.
+
+Heres an excerpt from the Project Euler website - <br>
+
+*The intended audience include students for whom the basic curriculum is not feeding their hunger to learn, adults whose background was not primarily mathematics but had an interest in things mathematical, and professionals who want to keep their problem solving and mathematics on the cutting edge.*
 
 
 
