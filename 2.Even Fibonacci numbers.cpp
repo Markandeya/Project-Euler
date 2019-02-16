@@ -12,9 +12,9 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 /*
 Logic:
 
-We need to  apply the 'Principle of Inclusion and Exclusion' to solve this problem.
-Here it simply means, we find all factors of 3 and 5 separately and add them before
-subtracting the lcm(3,5) or 15's factors from the total sum.
+Adding the two previous number to give current term is Fibonacci series.
+Only even terms are added to the total sum until current Fib term exceeds the limit
+of 4 million.
 
 */
 
@@ -24,23 +24,23 @@ using namespace std;
 
 int main()
 {
-    int prev = 2, cur = 3, sum = 0;
-    int i;
-    
-    while(cur<4000000)
-    {
-        if(i == 1)
-        {    
-            sum += cur;
-            i++;
-        } 
-        else if( i== 3)
-            i = 1;
+    unsigned int evenSum = 0, limit = 4000000;
 
-        cur = sum;
-        prev = cur;
+    int f = 1, s = 2, cur = 2;
+
+    while(true)
+    {
+        if(cur>limit) break;
+
+        if(! (cur&1) )
+            evenSum += cur;
+
+        cur = f+s;
+        f = s;
+        s = cur;
     }
 
-    cout<<sum<<endl;
+    cout<<evenSum<<endl;
 
+    return 0;
 }
