@@ -1,4 +1,4 @@
-![Leonhard Euler!](./banner.png)
+![Leonhard Euler!](/Banner.png)
 
 # Project-Euler
 This repository is a collection of problems I solved at [Project Euler](https://projecteuler.net).
